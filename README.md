@@ -2,12 +2,15 @@
 Done by:
 
 Tommy Nguyen
+
 Yvonna Leung
 
 For the course of:
 
 Dr. Andreoupoulos
+
 CS-286
+
 Spring 2021
 
 #### Project Abstract (taken from study)

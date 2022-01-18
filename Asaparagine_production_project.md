@@ -88,11 +88,11 @@ fastp -i Ni1_1.fq -I Ni1_2.fq -o Ni1_1.fastq.gz -O Ni1_2.fastq.gz -l 100 --detec
 | Ni_SM3_1    | 74.8%         | 51.0%      | 99.1% | 2.4%      | 83.0%  | 51%  | 41.8   |
 | Ni_SM3_2    |               |            |       |           | 82.0%  | 50%  | 41.8   |
 
-![image-20220118105446647](C:\Users\Tommy\AppData\Roaming\Typora\typora-user-images\image-20220118105446647.png)
+![fastp_filtered_reads_plot (1)](../../Downloads/fastp_filtered_reads_plot (1).png)
 
 About 99% of reads for every sample had passed filter. Reads with Phred scores of less than or equal to 15 was discarded and reads with lengths of less than 100 was removed. Adapters were automatically detected and removed. 
 
-![image-20220118105943614](C:\Users\Tommy\AppData\Roaming\Typora\typora-user-images\image-20220118105943614.png)
+![image-20220118105943614](../../AppData/Roaming/Typora/typora-user-images/image-20220118105943614.png)
 
 After the filtering step (adapter trimming, quality control), FastQC showed consistent and excellent Phred quality scores. 
 
@@ -181,6 +181,6 @@ STAR showed excellent alignment as over 91% of the RNA-seq reads were uniquely m
 | Ni_SM2      | 93.1%     | 18.2      |
 | Ni_SM3      | 91.7%     | 38.0      |
 
-![image-20220118111957698](C:\Users\Tommy\AppData\Roaming\Typora\typora-user-images\image-20220118111957698.png)
+![image-20220118111957698](../../AppData/Roaming/Typora/typora-user-images/image-20220118111957698.png)
 
 iDEP v0.93 was used for DEG analysis. The website can be found here: http://bioinformatics.sdstate.edu/idep/
