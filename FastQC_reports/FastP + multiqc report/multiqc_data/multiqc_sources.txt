@@ -1,0 +1,37 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	Ni1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_1/fastp.json
+fastp	all_sections	Ni2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_2/fastp.json
+fastp	all_sections	Ni3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_3/fastp.json
+fastp	all_sections	Ni_N1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_N1/fastp.json
+fastp	all_sections	Ni_N2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_N2/fastp.json
+fastp	all_sections	Ni_N3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/Ni_N3/fastp.json
+fastp	all_sections	N_1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/N_1/fastp.json
+fastp	all_sections	N_2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/N_2/fastp.json
+fastp	all_sections	N_3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/N_3/fastp.json
+fastp	all_sections	Ni_SM1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/SM1/fastp.json
+fastp	all_sections	Ni_SM2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/SM2/fastp.json
+fastp	all_sections	Ni_SM3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/FastP/SM3/fastp.json
+FastQC	all_sections	N_1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_1_1_fastqc.zip
+FastQC	all_sections	N_1_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_1_2_fastqc.zip
+FastQC	all_sections	N_2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_2_1_fastqc.zip
+FastQC	all_sections	N_2_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_2_2_fastqc.zip
+FastQC	all_sections	N_3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_3_1_fastqc.zip
+FastQC	all_sections	N_3_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/ASN/N_3_2_fastqc.zip
+FastQC	all_sections	Ni1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni1_1_fastqc.zip
+FastQC	all_sections	Ni1_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni1_2_fastqc.zip
+FastQC	all_sections	Ni2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni2_1_fastqc.zip
+FastQC	all_sections	Ni2_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni2_2_fastqc.zip
+FastQC	all_sections	Ni3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni3_1_fastqc.zip
+FastQC	all_sections	Ni3_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate/Ni3_2_fastqc.zip
+FastQC	all_sections	Ni_N1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N1_1_fastqc.zip
+FastQC	all_sections	Ni_N1_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N1_2_fastqc.zip
+FastQC	all_sections	Ni_N2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N2_1_fastqc.zip
+FastQC	all_sections	Ni_N2_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N2_2_fastqc.zip
+FastQC	all_sections	Ni_N3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N3_1_fastqc.zip
+FastQC	all_sections	Ni_N3_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate + Asn/Ni_N3_2_fastqc.zip
+FastQC	all_sections	Ni_SM1_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM1_1_fastqc.zip
+FastQC	all_sections	Ni_SM1_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM1_2_fastqc.zip
+FastQC	all_sections	Ni_SM2_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM2_1_fastqc.zip
+FastQC	all_sections	Ni_SM2_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM2_2_fastqc.zip
+FastQC	all_sections	Ni_SM3_1	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM3_1_fastqc.zip
+FastQC	all_sections	Ni_SM3_2	/mnt/c/Users/Tommy/Desktop/Multiqc/Fastqc/Nitrate ... SM/Ni_SM3_2_fastqc.zip

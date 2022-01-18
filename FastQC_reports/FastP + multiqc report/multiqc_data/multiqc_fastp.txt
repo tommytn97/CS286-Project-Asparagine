@@ -1,0 +1,13 @@
+Sample	command
+N_1_1	fastp -i N_1_1.fq -I N_1_2.fq -o N_1_1.fastq.gz -O N_1_2.fastq.gz -l 100 --detect_adapter_for_pe 
+N_2_1	fastp -i N_2_1.fq -I N_2_2.fq -o N_2_1.fastq.gz -O N_2_2.fastq.gz -l 100 --detect_adapter_for_pe 
+N_3_1	fastp -i N_3_1.fq -I N_3_2.fq -o N_3_1.fastq.gz -O N_3_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni1_1	fastp -i Ni1_1.fq -I Ni1_2.fq -o Ni1_1.fastq.gz -O Ni1_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni2_1	fastp -i Ni2_1.fq -I Ni2_2.fq -o Ni2_1.fastq.gz -O Ni2_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni3_1	fastp -i Ni3_1.fq -I Ni3_2.fq -o Ni3_1.fastq.gz -O Ni3_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_N1_1	fastp -i Ni_N1_1.fq -I Ni_N1_2.fq -o Ni_N1_1.fastq.gz -O Ni_N1_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_N2_1	fastp -i Ni_N2_1.fq -I Ni_N2_2.fq -o Ni_N2_1.fastq.gz -O Ni_N2_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_N3_1	fastp -i Ni_N3_1.fq -I Ni_N3_2.fq -o Ni_N3_1.fastq.gz -O Ni_N3_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_SM1_1	fastp -i Ni_SM1_1.fq -I Ni_SM1_2.fq -o Ni_SM1_1.fastq.gz -O Ni_SM1_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_SM2_1	fastp -i Ni_SM2_1.fq -I Ni_SM2_2.fq -o Ni_SM2_1.fastq.gz -O Ni_SM2_2.fastq.gz -l 100 --detect_adapter_for_pe 
+Ni_SM3_1	fastp -i Ni_SM3_1.fq -I Ni_SM3_2.fq -o Ni_SM3_1.fastq.gz -O Ni_SM3_2.fastq.gz -l 100 --detect_adapter_for_pe 

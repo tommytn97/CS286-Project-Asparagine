@@ -1,0 +1,190 @@
+---
+title: "CS286Project"
+author: "Tommy"
+date: "4/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r, message=FALSE}
+setwd("C:/Users/Tommy/Desktop/CS286R")
+getwd()
+library(DESeq2)
+library(dplyr)
+
+countData = read.csv('STAR_counts3.csv', header=1)
+
+```
+
+```{r}
+rownames(countData) = countData$gene_name
+countData = countData[,-1]
+```
+
+```{r}
+par(mar=c(8,4,4,1)+0.1, las=3)
+barplot(colSums(countData)/1e6, 
+        col=rep(c("red","blue","green","yellow"),
+        each=3, 
+        las=3, 
+        main="Total read counts (millions"))
+```
+
+```{r}
+hist(countData$Asn_1)
+```
+
+```{r}
+#log2 transformation
+logCountData = log2(1+countData)
+hist(logCountData$Asn_1, br=100)
+```
+
+```{r}
+plot(logCountData[,1], logCountData[,2])
+```
+
+```{r}
+plot(logCountData[,1], logCountData[,4])
+```
+```{r}
+
+```
+
+```{r}
+nitrate = c("n", "n", "n", 
+            "p", "p", "p",
+            "p", "p", "p",
+            "p", "p", "p"
+            )
+nitrate = c("1", "2", "3", 
+            "1", "2", "3",
+            "1", "2", "3",
+            "1", "2", "3"
+            )
+conditions = c("1", "1", "1", 
+            "2", "2", "2",
+            "3", "3", "3",
+            "4", "4", "4"
+            )
+treatment = c("control", "control", "control",
+              "control", "control", "control",
+              "treatment", "treatment", "treatment",
+              "treatment", "treatment", "treatment"
+              )
+
+```
+
+```{r}
+name = c("Asn", "Asn", "Asn",
+              "Nitrate", "Nitrate", "Nitrate",
+              "Ni_N", "Ni_N", "Ni_N",
+              "Ni_SM", "Ni_SM", "Ni_SM"
+              )
+```
+
+```{r}
+colData = as.data.frame(cbind(colnames(countData), name), stringsAsFactors = TRUE)
+colData
+```
+
+```{r}
+dds = DESeqDataSetFromMatrix(countData = countData,
+                             colData = colData,
+                             design = ~ name
+                             )
+dds = DESeq(dds)
+vignette('DESeq2')
+nrow(dds)
+```
+
+```{r}
+dds = dds[rowSums(counts(dds)) > 5,]
+nrow(dds)
+```
+
+```{r}
+sizeFactors(dds)
+```
+
+```{r}
+library(ggplot2)
+rld = rlog(dds)
+plotPCA(rld, intgroup = c("name"))
+```
+
+```{r}
+detectGroups <- function(x){
+  tem <- gsub("[0-9]*$", "", x)
+  tem <- gsub("_$", "", tem);
+  tem <- gsub("_Rep$", "", tem);
+  tem <- gsub("_rep$", "", tem);
+  tem <- gsub("_REP$", "", tem)
+  return( tem )
+}
+
+dist2 <- function(x, ...){
+  as.dist(1-cor(t(x), method="pearson"))
+}
+```
+
+```{r}
+library(gplots)
+
+hclust2 <- function(x, method="average", ...)  # average linkage in hierarchical clustering
+  hclust(x, method=method, ...)
+
+n=100 # number of top genes by standard deviation
+
+x = assay(rld)
+if(n>dim(x)[1]) n = dim(x)[1] # max	as data
+
+x = x[order(apply(x,1,sd),decreasing=TRUE),]  # sort genes by standard deviation
+
+x = x[1:n,]   # only keep the n genes
+
+# this will cutoff very large values, which could skew the color 
+x=as.matrix(x[1:n,])-apply(x[1:n,],1,mean)
+cutoff = median(unlist(x)) + 4*sd (unlist(x)) 
+x[x>cutoff] <- cutoff
+cutoff = median(unlist(x)) - 4*sd (unlist(x)) 
+x[x< cutoff] <- cutoff
+	
+groups = detectGroups(colnames(x) )
+groups.colors = rainbow(length(unique(groups) ) )
+
+
+	lmat = rbind(c(5,4),c(0,1),c(3,2))
+	lwid = c(1.5,4)
+	lhei = c(1,.2,4)
+
+
+heatmap.2(x, distfun = dist2,hclustfun=hclust2,
+	 col=greenred(75), density.info="none", trace="none", scale="none", keysize=.5
+	,key=T, symkey=F
+	,ColSideColors=groups.colors[ as.factor(groups)]
+	,margins=c(8,12)
+	,cexRow=1
+	,srtCol=45
+	,cexCol=1.  # size of font for sample names
+	,lmat = lmat, lwid = lwid, lhei = lhei
+	)
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```

@@ -1,0 +1,25 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_tile_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+N_1_1	N_1_1.fq	Conventional base calls	Sanger / Illumina 1.9	21029751.0	0.0	150.0	52.0	40.27651548606889	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+N_1_2	N_1_2.fq	Conventional base calls	Sanger / Illumina 1.9	21029751.0	0.0	150.0	51.0	41.48521447328429	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	warn	pass
+N_2_1	N_2_1.fq	Conventional base calls	Sanger / Illumina 1.9	19022794.0	0.0	150.0	52.0	40.85755126831971	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+N_2_2	N_2_2.fq	Conventional base calls	Sanger / Illumina 1.9	19022794.0	0.0	150.0	52.0	41.22309622687319	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+N_3_1	N_3_1.fq	Conventional base calls	Sanger / Illumina 1.9	26525795.0	0.0	150.0	51.0	34.181606246921596	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+N_3_2	N_3_2.fq	Conventional base calls	Sanger / Illumina 1.9	26525795.0	0.0	150.0	51.0	37.17573295041147	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni1_1	Ni1_1.fq	Conventional base calls	Sanger / Illumina 1.9	16673748.0	0.0	150.0	51.0	33.31651963053243	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni1_2	Ni1_2.fq	Conventional base calls	Sanger / Illumina 1.9	16673748.0	0.0	150.0	51.0	34.2987410671192	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	warn	pass
+Ni2_1	Ni2_1.fq	Conventional base calls	Sanger / Illumina 1.9	20287146.0	0.0	150.0	52.0	35.72237860040444	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni2_2	Ni2_2.fq	Conventional base calls	Sanger / Illumina 1.9	20287146.0	0.0	150.0	52.0	36.577804802197065	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni3_1	Ni3_1.fq	Conventional base calls	Sanger / Illumina 1.9	13643265.0	0.0	150.0	52.0	42.00667405277942	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni3_2	Ni3_2.fq	Conventional base calls	Sanger / Illumina 1.9	13643265.0	0.0	150.0	52.0	42.74943301131196	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N1_1	Ni_N1_1.fq	Conventional base calls	Sanger / Illumina 1.9	22404927.0	0.0	150.0	52.0	37.67979525504444	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N1_2	Ni_N1_2.fq	Conventional base calls	Sanger / Illumina 1.9	22404927.0	0.0	150.0	52.0	39.34094425133941	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N2_1	Ni_N2_1.fq	Conventional base calls	Sanger / Illumina 1.9	17979394.0	0.0	150.0	52.0	40.15008776649162	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N2_2	Ni_N2_2.fq	Conventional base calls	Sanger / Illumina 1.9	17979394.0	0.0	150.0	52.0	41.17078772491253	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N3_1	Ni_N3_1.fq	Conventional base calls	Sanger / Illumina 1.9	27700937.0	0.0	150.0	52.0	35.53403125359655	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_N3_2	Ni_N3_2.fq	Conventional base calls	Sanger / Illumina 1.9	27700937.0	0.0	150.0	52.0	37.38116072337851	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM1_1	Ni_SM1_1.fq	Conventional base calls	Sanger / Illumina 1.9	17129834.0	0.0	150.0	51.0	40.725800343551974	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM1_2	Ni_SM1_2.fq	Conventional base calls	Sanger / Illumina 1.9	17129834.0	0.0	150.0	51.0	41.53326272039924	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM2_1	Ni_SM2_1.fq	Conventional base calls	Sanger / Illumina 1.9	19647530.0	0.0	150.0	51.0	39.609383939781374	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM2_2	Ni_SM2_2.fq	Conventional base calls	Sanger / Illumina 1.9	19647530.0	0.0	150.0	51.0	40.90210030281683	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM3_1	Ni_SM3_1.fq	Conventional base calls	Sanger / Illumina 1.9	41813006.0	0.0	150.0	51.0	16.960277843721148	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	pass	pass
+Ni_SM3_2	Ni_SM3_2.fq	Conventional base calls	Sanger / Illumina 1.9	41813006.0	0.0	150.0	50.0	18.02602551857166	150.0	pass	pass	pass	pass	warn	pass	pass	pass	fail	warn	pass

@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+STAR	SummaryLog	Ni1	/mnt/c/Users/Tommy/Desktop/Log_final/Ni1_Log.final.out
+STAR	SummaryLog	Ni2	/mnt/c/Users/Tommy/Desktop/Log_final/Ni2_Log.final.out
+STAR	SummaryLog	Ni3	/mnt/c/Users/Tommy/Desktop/Log_final/Ni3_Log.final.out
+STAR	SummaryLog	Ni_N1	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_N1_Log.final.out
+STAR	SummaryLog	Ni_N2	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_N2_Log.final.out
+STAR	SummaryLog	Ni_N3	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_N3_Log.final.out
+STAR	SummaryLog	Ni_SM1	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_SM1_Log.final.out
+STAR	SummaryLog	Ni_SM2	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_SM2_Log.final.out
+STAR	SummaryLog	Ni_SM3	/mnt/c/Users/Tommy/Desktop/Log_final/Ni_SM3_Log.final.out
+STAR	SummaryLog	N_1	/mnt/c/Users/Tommy/Desktop/Log_final/N_1_Log.final.out
+STAR	SummaryLog	N_2	/mnt/c/Users/Tommy/Desktop/Log_final/N_2_Log.final.out
+STAR	SummaryLog	N_3	/mnt/c/Users/Tommy/Desktop/Log_final/N_3_Log.final.out

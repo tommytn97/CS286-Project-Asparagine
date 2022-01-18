@@ -1,0 +1,187 @@
+[2021-05-08 14:09:29,296] multiqc                                            [DEBUG  ]  No MultiQC config found: /root/miniconda3/envs/conda_env/lib/python3.8/site-packages/multiqc_config.yaml
+[2021-05-08 14:09:29,296] multiqc                                            [DEBUG  ]  No MultiQC config found: /root/.multiqc_config.yaml
+[2021-05-08 14:09:29,296] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2021-05-08 14:09:29,296] multiqc                                            [DEBUG  ]  Command used: /root/miniconda3/envs/conda_env/bin/multiqc . -f
+[2021-05-08 14:09:31,660] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.10.1
+[2021-05-08 14:09:31,660] multiqc                                            [INFO   ]  This is MultiQC v1.10.1
+[2021-05-08 14:09:31,661] multiqc                                            [DEBUG  ]  Command     : /root/miniconda3/envs/conda_env/bin/multiqc . -f
+[2021-05-08 14:09:31,661] multiqc                                            [DEBUG  ]  Working dir : /mnt/c/Users/Tommy/Desktop/Multiqc
+[2021-05-08 14:09:31,661] multiqc                                            [INFO   ]  Template    : default
+[2021-05-08 14:09:31,661] multiqc                                            [DEBUG  ]  Running Python 3.8.0 | packaged by conda-forge | (default, Nov 22 2019, 19:11:38)  [GCC 7.3.0]
+[2021-05-08 14:09:31,661] multiqc                                            [INFO   ]  Searching   : /mnt/c/Users/Tommy/Desktop/Multiqc
+[2021-05-08 14:09:31,661] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ngsderive, purple, conpair, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, goleft_indexcov, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dedup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, sentieon, prokka, qc3C, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, bbmap, bismark, biscuit, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, snpsplit, kat, leehom, adapterRemoval, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, pychopper, pycoqc, minionqc, multivcfanalyzer, clusterflow, bcl2fastq, interop, ivar, flash, seqyclean, optitype
+[2021-05-08 14:09:31,662] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpu3uzh9ml
+[2021-05-08 14:09:31,713] multiqc                                            [DEBUG  ]  Ignoring directory as matched fn_ignore_dirs: ./multiqc_data
+[2021-05-08 14:09:31,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: multiqc_report.html
+[2021-05-08 14:09:31,721] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,726] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,727] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_Ni_n1.html
+[2021-05-08 14:09:31,728] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_Ni_N2.html
+[2021-05-08 14:09:31,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp_Ni_N3.html
+[2021-05-08 14:09:31,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,729] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,730] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:31,745] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastp_SM1.html
+[2021-05-08 14:09:31,751] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastp_SM1.html
+[2021-05-08 14:09:31,844] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: fastp_SM2.html
+[2021-05-08 14:09:31,850] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: fastp_SM2.html
+[2021-05-08 14:09:31,932] multiqc                                            [DEBUG  ]  Ignoring file as matched an ignore pattern: fastp.html
+[2021-05-08 14:09:32,008] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_1_1_fastqc.html
+[2021-05-08 14:09:32,013] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_1_1_fastqc.html
+[2021-05-08 14:09:32,127] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_1_2_fastqc.html
+[2021-05-08 14:09:32,132] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_1_2_fastqc.html
+[2021-05-08 14:09:32,231] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_2_1_fastqc.html
+[2021-05-08 14:09:32,237] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_2_1_fastqc.html
+[2021-05-08 14:09:32,338] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_2_2_fastqc.html
+[2021-05-08 14:09:32,343] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_2_2_fastqc.html
+[2021-05-08 14:09:32,444] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_3_1_fastqc.html
+[2021-05-08 14:09:32,449] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_3_1_fastqc.html
+[2021-05-08 14:09:32,548] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: N_3_2_fastqc.html
+[2021-05-08 14:09:32,553] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: N_3_2_fastqc.html
+[2021-05-08 14:09:32,650] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni1_1_fastqc.html
+[2021-05-08 14:09:32,655] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni1_1_fastqc.html
+[2021-05-08 14:09:32,753] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni1_2_fastqc.html
+[2021-05-08 14:09:32,758] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni1_2_fastqc.html
+[2021-05-08 14:09:32,857] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni2_1_fastqc.html
+[2021-05-08 14:09:32,862] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni2_1_fastqc.html
+[2021-05-08 14:09:32,960] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni2_2_fastqc.html
+[2021-05-08 14:09:32,965] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni2_2_fastqc.html
+[2021-05-08 14:09:33,062] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni3_1_fastqc.html
+[2021-05-08 14:09:33,067] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni3_1_fastqc.html
+[2021-05-08 14:09:33,165] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni3_2_fastqc.html
+[2021-05-08 14:09:33,170] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni3_2_fastqc.html
+[2021-05-08 14:09:33,270] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N1_1_fastqc.html
+[2021-05-08 14:09:33,275] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N1_1_fastqc.html
+[2021-05-08 14:09:33,375] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N1_2_fastqc.html
+[2021-05-08 14:09:33,380] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N1_2_fastqc.html
+[2021-05-08 14:09:33,476] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N2_1_fastqc.html
+[2021-05-08 14:09:33,481] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N2_1_fastqc.html
+[2021-05-08 14:09:33,583] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N2_2_fastqc.html
+[2021-05-08 14:09:33,589] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N2_2_fastqc.html
+[2021-05-08 14:09:33,689] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N3_1_fastqc.html
+[2021-05-08 14:09:33,694] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N3_1_fastqc.html
+[2021-05-08 14:09:33,795] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_N3_2_fastqc.html
+[2021-05-08 14:09:33,801] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_N3_2_fastqc.html
+[2021-05-08 14:09:33,902] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM1_1_fastqc.html
+[2021-05-08 14:09:33,908] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM1_1_fastqc.html
+[2021-05-08 14:09:34,008] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM1_2_fastqc.html
+[2021-05-08 14:09:34,013] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM1_2_fastqc.html
+[2021-05-08 14:09:34,109] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM2_1_fastqc.html
+[2021-05-08 14:09:34,114] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM2_1_fastqc.html
+[2021-05-08 14:09:34,209] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM2_2_fastqc.html
+[2021-05-08 14:09:34,215] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM2_2_fastqc.html
+[2021-05-08 14:09:34,317] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM3_1_fastqc.html
+[2021-05-08 14:09:34,322] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM3_1_fastqc.html
+[2021-05-08 14:09:34,418] multiqc                                            [DEBUG  ]  File ignored by hicexplorer because it exceeded search pattern filesize limit: Ni_SM3_2_fastqc.html
+[2021-05-08 14:09:34,423] multiqc                                            [DEBUG  ]  File ignored by longranger/invocation because it exceeded search pattern filesize limit: Ni_SM3_2_fastqc.html
+[2021-05-08 14:09:34,662] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.4.1
+[2021-05-08 14:09:34,663] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.4.1
+[2021-05-08 14:09:34,664] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2021-05-08 14:09:34,666] multiqc                                            [DEBUG  ]  No samples found: ngsderive
+[2021-05-08 14:09:34,669] multiqc                                            [DEBUG  ]  No samples found: purple
+[2021-05-08 14:09:34,671] multiqc                                            [DEBUG  ]  No samples found: conpair
+[2021-05-08 14:09:34,673] multiqc                                            [DEBUG  ]  No samples found: peddy
+[2021-05-08 14:09:34,676] multiqc                                            [DEBUG  ]  No samples found: somalier
+[2021-05-08 14:09:34,678] multiqc                                            [DEBUG  ]  No samples found: methylQA
+[2021-05-08 14:09:34,681] multiqc                                            [DEBUG  ]  No samples found: mosdepth
+[2021-05-08 14:09:34,684] multiqc                                            [DEBUG  ]  No samples found: phantompeakqualtools
+[2021-05-08 14:09:34,686] multiqc                                            [DEBUG  ]  No samples found: qualimap
+[2021-05-08 14:09:34,688] multiqc                                            [DEBUG  ]  No samples found: preseq
+[2021-05-08 14:09:34,691] multiqc                                            [DEBUG  ]  No samples found: quast
+[2021-05-08 14:09:34,693] multiqc                                            [DEBUG  ]  No samples found: qorts
+[2021-05-08 14:09:34,696] multiqc                                            [DEBUG  ]  No samples found: rna_seqc
+[2021-05-08 14:09:34,698] multiqc                                            [DEBUG  ]  No samples found: rockhopper
+[2021-05-08 14:09:34,700] multiqc                                            [DEBUG  ]  No samples found: rsem
+[2021-05-08 14:09:34,705] multiqc                                            [DEBUG  ]  No samples found: rseqc
+[2021-05-08 14:09:34,707] multiqc                                            [DEBUG  ]  No samples found: busco
+[2021-05-08 14:09:34,710] multiqc                                            [DEBUG  ]  No samples found: goleft_indexcov
+[2021-05-08 14:09:34,712] multiqc                                            [DEBUG  ]  No samples found: disambiguate
+[2021-05-08 14:09:34,714] multiqc                                            [DEBUG  ]  No samples found: supernova
+[2021-05-08 14:09:34,719] multiqc                                            [DEBUG  ]  No samples found: deeptools
+[2021-05-08 14:09:34,722] multiqc                                            [DEBUG  ]  No samples found: sargasso
+[2021-05-08 14:09:34,725] multiqc                                            [DEBUG  ]  No samples found: verifybamid
+[2021-05-08 14:09:34,727] multiqc                                            [DEBUG  ]  No samples found: mirtrace
+[2021-05-08 14:09:34,730] multiqc                                            [DEBUG  ]  No samples found: happy
+[2021-05-08 14:09:34,732] multiqc                                            [DEBUG  ]  No samples found: mirtop
+[2021-05-08 14:09:34,735] multiqc                                            [DEBUG  ]  No samples found: homer
+[2021-05-08 14:09:34,737] multiqc                                            [DEBUG  ]  No samples found: hops
+[2021-05-08 14:09:34,740] multiqc                                            [DEBUG  ]  No samples found: macs2
+[2021-05-08 14:09:34,742] multiqc                                            [DEBUG  ]  No samples found: theta2
+[2021-05-08 14:09:34,744] multiqc                                            [DEBUG  ]  No samples found: snpeff
+[2021-05-08 14:09:34,747] multiqc                                            [DEBUG  ]  No samples found: gatk
+[2021-05-08 14:09:34,750] multiqc                                            [DEBUG  ]  No samples found: htseq
+[2021-05-08 14:09:34,753] multiqc                                            [DEBUG  ]  No samples found: bcftools
+[2021-05-08 14:09:34,755] multiqc                                            [DEBUG  ]  No samples found: featureCounts
+[2021-05-08 14:09:34,759] multiqc                                            [DEBUG  ]  No samples found: fgbio
+[2021-05-08 14:09:34,764] multiqc                                            [DEBUG  ]  No samples found: dragen
+[2021-05-08 14:09:34,766] multiqc                                            [DEBUG  ]  No samples found: dedup
+[2021-05-08 14:09:34,769] multiqc                                            [DEBUG  ]  No samples found: damageprofiler
+[2021-05-08 14:09:34,776] multiqc                                            [DEBUG  ]  No samples found: biobambam2
+[2021-05-08 14:09:34,779] multiqc                                            [DEBUG  ]  No samples found: jcvi
+[2021-05-08 14:09:34,781] multiqc                                            [DEBUG  ]  No samples found: mtnucratio
+[2021-05-08 14:09:34,783] multiqc                                            [DEBUG  ]  No samples found: picard
+[2021-05-08 14:09:34,786] multiqc                                            [DEBUG  ]  No samples found: sentieon
+[2021-05-08 14:09:34,788] multiqc                                            [DEBUG  ]  No samples found: prokka
+[2021-05-08 14:09:34,791] multiqc                                            [DEBUG  ]  No samples found: qc3C
+[2021-05-08 14:09:34,793] multiqc                                            [DEBUG  ]  No samples found: samblaster
+[2021-05-08 14:09:34,797] multiqc                                            [DEBUG  ]  No samples found: samtools
+[2021-05-08 14:09:34,799] multiqc                                            [DEBUG  ]  No samples found: sexdeterrmine
+[2021-05-08 14:09:34,801] multiqc                                            [DEBUG  ]  No samples found: eigenstratdatabasetools
+[2021-05-08 14:09:34,804] multiqc                                            [DEBUG  ]  No samples found: bamtools
+[2021-05-08 14:09:34,806] multiqc                                            [DEBUG  ]  No samples found: jellyfish
+[2021-05-08 14:09:34,810] multiqc                                            [DEBUG  ]  No samples found: vcftools
+[2021-05-08 14:09:34,812] multiqc                                            [DEBUG  ]  No samples found: longranger
+[2021-05-08 14:09:34,814] multiqc                                            [DEBUG  ]  No samples found: stacks
+[2021-05-08 14:09:34,817] multiqc                                            [DEBUG  ]  No samples found: varscan2
+[2021-05-08 14:09:34,822] multiqc                                            [DEBUG  ]  No samples found: bbmap
+[2021-05-08 14:09:34,824] multiqc                                            [DEBUG  ]  No samples found: bismark
+[2021-05-08 14:09:34,827] multiqc                                            [DEBUG  ]  No samples found: biscuit
+[2021-05-08 14:09:34,829] multiqc                                            [DEBUG  ]  No samples found: hicexplorer
+[2021-05-08 14:09:34,832] multiqc                                            [DEBUG  ]  No samples found: hicup
+[2021-05-08 14:09:34,834] multiqc                                            [DEBUG  ]  No samples found: hicpro
+[2021-05-08 14:09:34,836] multiqc                                            [DEBUG  ]  No samples found: salmon
+[2021-05-08 14:09:34,839] multiqc                                            [DEBUG  ]  No samples found: kallisto
+[2021-05-08 14:09:34,841] multiqc                                            [DEBUG  ]  No samples found: slamdunk
+[2021-05-08 14:09:34,843] multiqc                                            [DEBUG  ]  No samples found: star
+[2021-05-08 14:09:34,846] multiqc                                            [DEBUG  ]  No samples found: hisat2
+[2021-05-08 14:09:34,848] multiqc                                            [DEBUG  ]  No samples found: tophat
+[2021-05-08 14:09:34,851] multiqc                                            [DEBUG  ]  No samples found: bowtie2
+[2021-05-08 14:09:34,853] multiqc                                            [DEBUG  ]  No samples found: bowtie1
+[2021-05-08 14:09:34,856] multiqc                                            [DEBUG  ]  No samples found: snpsplit
+[2021-05-08 14:09:34,858] multiqc                                            [DEBUG  ]  No samples found: kat
+[2021-05-08 14:09:34,860] multiqc                                            [DEBUG  ]  No samples found: leehom
+[2021-05-08 14:09:34,863] multiqc                                            [DEBUG  ]  No samples found: adapterRemoval
+[2021-05-08 14:09:34,865] multiqc                                            [DEBUG  ]  No samples found: clipandmerge
+[2021-05-08 14:09:34,867] multiqc                                            [DEBUG  ]  No samples found: cutadapt
+[2021-05-08 14:09:34,870] multiqc                                            [DEBUG  ]  No samples found: flexbar
+[2021-05-08 14:09:34,872] multiqc                                            [DEBUG  ]  No samples found: kaiju
+[2021-05-08 14:09:34,875] multiqc                                            [DEBUG  ]  No samples found: kraken
+[2021-05-08 14:09:34,877] multiqc                                            [DEBUG  ]  No samples found: malt
+[2021-05-08 14:09:34,879] multiqc                                            [DEBUG  ]  No samples found: trimmomatic
+[2021-05-08 14:09:34,881] multiqc                                            [DEBUG  ]  No samples found: sickle
+[2021-05-08 14:09:34,884] multiqc                                            [DEBUG  ]  No samples found: skewer
+[2021-05-08 14:09:34,886] multiqc                                            [DEBUG  ]  No samples found: sortmerna
+[2021-05-08 14:09:34,888] multiqc                                            [DEBUG  ]  No samples found: biobloomtools
+[2021-05-08 14:09:34,891] multiqc                                            [DEBUG  ]  No samples found: fastq_screen
+[2021-05-08 14:09:34,893] multiqc                                            [DEBUG  ]  No samples found: afterqc
+[2021-05-08 14:09:34,927] multiqc.modules.fastp.fastp                        [INFO   ]  Found 12 reports
+[2021-05-08 14:09:36,925] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 24 reports
+[2021-05-08 14:09:37,230] multiqc                                            [DEBUG  ]  No samples found: pychopper
+[2021-05-08 14:09:37,233] multiqc                                            [DEBUG  ]  No samples found: pycoqc
+[2021-05-08 14:09:37,235] multiqc                                            [DEBUG  ]  No samples found: minionqc
+[2021-05-08 14:09:37,238] multiqc                                            [DEBUG  ]  No samples found: multivcfanalyzer
+[2021-05-08 14:09:37,240] multiqc                                            [DEBUG  ]  No samples found: clusterflow
+[2021-05-08 14:09:37,243] multiqc                                            [DEBUG  ]  No samples found: bcl2fastq
+[2021-05-08 14:09:37,245] multiqc                                            [DEBUG  ]  No samples found: interop
+[2021-05-08 14:09:37,248] multiqc                                            [DEBUG  ]  No samples found: ivar
+[2021-05-08 14:09:37,250] multiqc                                            [DEBUG  ]  No samples found: flash
+[2021-05-08 14:09:37,252] multiqc                                            [DEBUG  ]  No samples found: seqyclean
+[2021-05-08 14:09:37,254] multiqc                                            [DEBUG  ]  No samples found: optitype
+[2021-05-08 14:09:37,285] multiqc                                            [INFO   ]  Compressing plot data
+[2021-05-08 14:09:38,084] multiqc                                            [WARNING]  Deleting    : multiqc_report.html   (-f was specified)
+[2021-05-08 14:09:38,084] multiqc                                            [WARNING]  Deleting    : multiqc_data   (-f was specified)
+[2021-05-08 14:09:38,086] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2021-05-08 14:09:38,087] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2021-05-08 14:09:38,087] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpu3uzh9ml/multiqc_data' to '/mnt/c/Users/Tommy/Desktop/Multiqc/multiqc_data'
+[2021-05-08 14:09:38,783] multiqc                                            [INFO   ]  MultiQC complete
