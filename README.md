@@ -5,6 +5,8 @@ Tommy Nguyen
 
 Yvonna Leung
 
+
+
 For the course of:
 
 Dr. Andreoupoulos
@@ -23,9 +25,9 @@ Raw data was taken from California State University, Bakersfield. Access was giv
 
 Presentation of findings is linked below:
 
-https://docs.google.com/presentation/d/1vj3w68qYoaDmCGDwT8icRtMWHl8cgeNU4rZg7EAKeAI/edit#slide=id.p
+https://docs.google.com/presentation/d/1vj3w68qYoaDmCGDwT8icRtMWHl8cgeNU4rZg7EAKeAI/edit?usp=sharing
 
-The procedure can be read with the file Asparagine_production_project.md
+The procedure can be read with the markdown file: [Asparagine_production_project.md](https://github.com/tommytn97/CS286-Project-Asparagine/blob/main/Asaparagine_production_project.md)
 
 #### Study details
 
